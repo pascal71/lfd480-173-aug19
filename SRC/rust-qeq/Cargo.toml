@@ -1,0 +1,16 @@
+[package]
+name = "qeq"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pascal van Dam  <pascal@poortier.nl"]
+description = "Solves quadratic equations"
+license = "MIT/Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[dependencies]
+
