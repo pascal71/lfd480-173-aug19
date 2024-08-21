@@ -39,9 +39,9 @@ fn calculate(op: Operation, a: f64, b: f64) -> f64 {
 
 // Test the calculator in the main function with a few examples.
 fn main() {
-    let operation_str = "add"; // You can change this to "subtract", "multiply", "divide", or an invalid operation
-    let x = 5.0;
-    let y = 3.0;
+    let operation_str = "divide"; // You can change this to "subtract", "multiply", "divide", or an invalid operation
+    let x = 3.0;
+    let y = 0.0;
 
     let op = str_to_operation(operation_str);
     let result = calculate(op, x, y);
