@@ -1,0 +1,8 @@
+[package]
+name = "snake_case_converter"
+version = "0.1.0"
+authors = ["Your Name <you@example.com>"]
+edition = "2018"
+description = "A simple library to convert strings to snake case."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/snake_case_converter"
